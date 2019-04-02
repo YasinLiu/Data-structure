@@ -1,3 +1,6 @@
+import sys
+
+sys.setrecursionlimit(1000000)
 
 def get_pie(times):
     if times <= 0:
@@ -13,5 +16,5 @@ def get_pie(times):
 
 
 if __name__ == '__main__':
-    pie = get_pie(900)*4
+    pie = get_pie(21000)*4
     print(pie)
