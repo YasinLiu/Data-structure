@@ -1,10 +1,10 @@
 '''
     use recursive function
 '''
-coefficient = 0.6
+# coefficient = 0.6
 
-result = 0
-def distance_sum(init_height, times):
+# result = 0
+def distance_sum(init_height, times, coefficient=0.6):
     if times < 0:
         return 0
     else:
@@ -14,5 +14,5 @@ def distance_sum(init_height, times):
 
 
 if __name__ == '__main__':
-    s = distance_sum(10, 2)
+    s = distance_sum(10, 2, 0.7)
     print(s)
